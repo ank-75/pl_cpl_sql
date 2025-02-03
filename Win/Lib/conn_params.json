@@ -1,0 +1,18 @@
+[
+	{"ConnType": "PSQL",
+     "ConnName": "db_PG",
+     "UserName": "username",
+     "PassWord": "password",
+     "HostName": "hostname",
+     "DataBase": "database",
+     "Port":     "port"
+	},
+	{"ConnType": "Oracle",
+     "ConnName": "db_Oracle",
+     "UserName": "username",
+     "PassWord": "password",
+     "HostName": "",
+     "DataBase": "database",
+     "Port":     ""
+	}	
+]
