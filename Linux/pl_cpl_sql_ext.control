@@ -1,0 +1,6 @@
+comment = 'PL/сPLSQL procedural language'
+default_version = '0.1'
+module_pathname = '$libdir/pl_cpl_sql_ext'
+relocatable = false
+schema = pg_catalog
+superuser = false
