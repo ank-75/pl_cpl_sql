@@ -1,6 +1,6 @@
 # Здесь представлен интерпретатор языка программирования (похожего на Oracle PL/SQL), который реализован в виде расширения для БД PostgreSQL. 
 В БД этот язык будет называться - <b>pl_cpl_sql</b>. 
-Сам интерпретатор собран в виде динамичесой библиотеки (/Linux/Lib/libpl_cpl_sql_lib.so для Linux, /Win/Lib/pl_cpl_sql_lib.dll для Windows). 
+Сам интерпретатор собран в виде динамичесой библиотеки (<b>/Linux/Lib/libpl_cpl_sql_lib.so</b> для <b>Linux</b>, <b>/Win/Lib/pl_cpl_sql_lib.dll</b> для <b>Windows</b>). 
 
 <h3>Установка, если БД PostgreSQL расположена на компьютере с OS Linux:</h3>
 (дополнительно должен быть установле пакет - <b>postgresql-devel</b>)
@@ -25,7 +25,7 @@
    
 <h3>Установка, если БД PostgreSQL расположена на компьютере с OS Windows:</h3>
 
-1) Для того, чтобы на основе файла <b>/Win/pl_cpl_sql_ext.c</b> собрать библиотеку <b>pl_cpl_sql_ext.dll</b> можно воспользоваться ссылкой.<br>
+1) Для того, чтобы на основе файла <b>/Win/pl_cpl_sql_ext.c</b> собрать библиотеку <b>pl_cpl_sql_ext.dll</b> можно воспользоваться ссылкой - https://www.highgo.ca/2020/05/15/build-postgresql-and-extension-on-windows/.<br>
    Там указано, как с помощью <b>Visual Studio</b> собрать такую библиотеку.<br>
    
    Так же в каталогах <b>/Win/LibPG/15/</b> и <b>/Win/LibPG/16/</b> имеются версии данной библиотеки, собранные для <b>PostgreSQL</b> 15 или 16 версии.<br>
