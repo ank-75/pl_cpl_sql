@@ -1,18 +1,18 @@
 # Здесь представлен интерпретатор языка программирования (похожего на Oracle PL/SQL), который реализован в виде расширения для БД PostgreSQL. 
 В БД этот язык будет называться - pl_cpl_sql.
 
-Установка, если БД PostgreSQL расположена на компьютере с OS Linux:
+<h3>Установка, если БД PostgreSQL расположена на компьютере с OS Linux:</h3>
 (дополнительно должен быть установле пакет - postgresql-devel)
 
-1) В отдельный каталог копируем файлы (/Linux/):
-	makefile
-	pl_cpl_sql_ext--1.0.sql
-	pl_cpl_sql_ext.c
-	pl_cpl_sql_ext.control
+1) В отдельный каталог копируем файлы (/Linux/):<br>
+	<b>makefile<br>
+	pl_cpl_sql_ext--1.0.sql<br>
+	pl_cpl_sql_ext.c<br>
+	pl_cpl_sql_ext.control</b>
 	
 2) Выполняем команды:
-    make
-	make install
+    <b>make<br>
+	make install</b>
 	
 3) С помощью pgAdmin или DBeaver выполняем sql-файл - /Linux/pl_cpl_sql_ext--1.0.sql.
 
