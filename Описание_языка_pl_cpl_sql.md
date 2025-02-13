@@ -84,18 +84,18 @@
 	<p>Он содержит следующие методы:</p>
 	<ul>
 		<li><b>xml_io.get_node_count(xml_doc)</b> - получить количество разобранных вершин xml-документа.</li>
-		<li><b>xml_io.get_node_prop(xml_doc, ind, prop_name)</b> - получить значение свойства вершины (ind - индекс вершины в массива, prop_name - ('name', 'value', 'path', 'type', 'level') - название свойства).</li>
-		<li><b>xml_io.get_node_attr(xml_doc, ind, attr_name)</b> - получить значение атрибута вершины (ind - индекс вершины в массива, attr_name - название атрибута).</li>
-		<li><b>xml_io.get_node_all_attr(xml_doc, ind)</b> - получить значения всех атрибутов вершины (ind - индекс вершины в массива).</li>		
+		<li><b>xml_io.get_node_prop(xml_doc, ind, prop_name)</b> - получить значение свойства вершины (ind - индекс вершины в массиве, prop_name - ('name', 'value', 'path', 'type', 'level') - название свойства).</li>
+		<li><b>xml_io.get_node_attr(xml_doc, ind, attr_name)</b> - получить значение атрибута вершины (ind - индекс вершины в массиве, attr_name - название атрибута).</li>
+		<li><b>xml_io.get_node_all_attr(xml_doc, ind)</b> - получить значения всех атрибутов вершины (ind - индекс вершины в массиве).</li>		
 	</ul>
 	</div>	
 	<h4>f). Пакет HTML_IO - для парсинга (разбора) HTML - документов.</h4>		
 	<p>Он содержит следующие методы:</p>
 	<ul>
 		<li><b>html_io.get_node_count(xml_doc)</b> - получить количество разобранных вершин html-документа.</li>
-		<li><b>html_io.get_node_prop(xml_doc, ind, prop_name)</b> - получить значение свойства вершины (ind - индекс вершины в массива, prop_name - ('name', 'value', 'path', 'type', 'level') - название свойства).</li>
-		<li><b>html_io.get_node_attr(xml_doc, ind, attr_name)</b> - получить значение атрибута вершины (ind - индекс вершины в массива, attr_name - название атрибута).</li>
-		<li><b>html_io.get_node_all_attr(xml_doc, ind)</b> - получить значения всех атрибутов вершины (ind - индекс вершины в массива).</li>		
+		<li><b>html_io.get_node_prop(xml_doc, ind, prop_name)</b> - получить значение свойства вершины (ind - индекс вершины в массиве, prop_name - ('name', 'value', 'path', 'type', 'level') - название свойства).</li>
+		<li><b>html_io.get_node_attr(xml_doc, ind, attr_name)</b> - получить значение атрибута вершины (ind - индекс вершины в массиве, attr_name - название атрибута).</li>
+		<li><b>html_io.get_node_all_attr(xml_doc, ind)</b> - получить значения всех атрибутов вершины (ind - индекс вершины в массиве).</li>		
 	</ul>
 	</div>		
 
